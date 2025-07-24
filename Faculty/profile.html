@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Faculty Profile</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Faculty Settings</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <center>
-    <h1>Faculty Profile</h1>
-    <img src="Media/faculty_profile.jpeg" height="200" width="200">
-    </center>
+  <center>
+    <h1 class="text-2xl font-bold mt-4">Faculty Settings</h1>
+    <img src="Media/faculty_profile.jpeg" height="200" width="200" class="my-4" alt="Faculty Profile Picture">
+  </center>
 
-    <h2><b>Dr. A. Senthil</b></h2>
-    <p><b>Faculty ID:</b> <u>4526</u></p>
-    <p><b>Mail ID:</b> <u>senthil@kluniversity.in</u></p>
+  <div class="text-center space-x-5 mb-4">
+    <a href="./dashboard.html" class="text-blue-600 underline">⬅ Back to Dashboard</a>
+    <a href="../index.html" class="text-red-600 underline">🔒 Logout</a>
+  </div>
 
-    <p><b>Designation:</b> <i>Associate Professor, CSE Department</i></p>
-    <p><b>Experience:</b> <strong>15+ Years</strong></p>
+  <div class="px-6">
+    <h2><b>Faculty:</b> Dr. T. Satish</h2>
+    <p><b>Faculty ID:</b> <u>6850</u></p>
+    <p><b>Mail ID:</b> <u>drsatishthatavarti@kluniversity.in</u></p>
+    <p><b>Designation:</b> <u>Associate Dean (Skill Development)</u></p>
 
-    <h3>About Me</h3>
-    <p>
-    Hello! I am <b>Dr. A. Senthil</b>.<br>
-    I have a deep interest in <i>Machine Learning</i> and <i>Data Science</i>.<br>
-    I enjoy guiding students and conducting impactful <b>research</b>.<br>
-    Sharing knowledge and building innovative projects inspire me.<br>
-    I strive for academic excellence and <b>practical application</b> of technology.<br>
-    Teaching and learning go hand in hand in my journey.
-    </p>    
+    <h3 class="mt-4"><strong>Settings & Options</strong></h3>
+    <ul class="list-disc pl-6">
+      <li>Edit Profile Details</li>
+      <li>Change Password</li>
+      <li>Set Office Hours</li>
+      <li>Email Notification Preferences</li>
+      <li>Deactivate Account</li>
+    </ul>
+  </div>
 </body>
 </html>
