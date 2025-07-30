@@ -3,34 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Faculty Settings</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Faculty Profile</title>
+  <link rel="stylesheet" href="../Public/StyleSheets/profile.css" />
 </head>
 <body>
-  <center>
-    <h1 class="text-2xl font-bold mt-4">Faculty Profile</h1>
-    <img src="Media/faculty_profile.jpeg" height="200" width="200"  alt="Faculty Profile Picture">
-  </center>
 
-  <div class="text-center space-x-5 mb-4">
-    <a href="./dashboard.html" class="text-blue-600 underline">⬅ Back to Dashboard</a>
-    <a href="../index.html" class="text-red-600 underline">🔒 Logout</a>
+  <div class="heading">
+    <h1>Faculty Profile</h1>
+    <img class="profile_img" src="Media/faculty_profile.jpeg" height="200" width="200" alt="Faculty Profile Picture">
   </div>
 
-  <div class="px-6">
+  <div class="navigation">
+    <a class="back_button" href="./dashboard.html">⬅ Back to Dashboard</a>
+    <a class="logout_button" href="../index.html">🔒 Logout</a>
+  </div>
+
+  <div class="container">
     <h2><b>Faculty:</b> Dr. T. Satish</h2>
     <p><b>Faculty ID:</b> <u>6850</u></p>
     <p><b>Mail ID:</b> <u>drsatishthatavarti@kluniversity.in</u></p>
-    <p><b>Designation:</b> <u>Associate Dean (Skill Development)</u></p>
-
-    <h3 class="mt-4"><strong>Settings & Options</strong></h3>
-    <ul class="list-disc pl-6">
-      <li>Edit Profile Details</li>
-      <li>Change Password</li>
-      <li>Set Office Hours</li>
-      <li>Email Notification Preferences</li>
-      <li>Deactivate Account</li>
-    </ul>
+    <p><b>Designation:</b> <i>Associate Dean (Skill Development)</i></p>
   </div>
+
+  <div class="footer">
+    <h3><strong>Settings & Options</strong></h3>
+    <p class="settings">
+      <a href="#">Edit Profile Details</a><br>
+      <a href="#">Change Password</a><br>
+      <a href="#">Set Office Hours</a><br>
+      <a href="#">Email Notification Preferences</a><br>
+      <a href="#">Deactivate Account</a>
+    </p>
+  </div>
+
 </body>
 </html>

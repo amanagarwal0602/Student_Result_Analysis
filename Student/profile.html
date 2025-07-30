@@ -4,34 +4,41 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Student Profile</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../Public/StyleSheets/profile.css" />
 </head>
 <body>
-  <center>
-    <h1 class="text-2xl font-bold mt-4">Student Profile</h1>
-    <img src="Media/student_profile.png" height="200" width="200" class="my-4" />
-  </center>
-
-  <div class="text-center space-x-5 mb-4">
-    <a href="./dashboard.html" class="text-blue-600 underline">⬅ Back to Dashboard</a>
-    <a href="../index.html" class="text-red-600 underline">🔒 Logout</a>
+  <div class="heading">
+    <h1>Student Profile</h1>
+  </div> 
+  
+  <div class="navigation">
+    <a class="back_button" href="./dashboard.html">⬅ Back to Dashboard</a>
+    <a class="logout_button" href="../index.html">🔒 Logout</a>
   </div>
 
-  <div class="px-6">
-    <h2><b>Name:</b> Amit Agarwal</h2>
-    <p><b>Student ID:</b> <u>2400033009</u></p>
-    <p><b>Mail ID:</b> <u>2400033009@kluniversity.in</u></p>
-    <p><b>Program:</b> <i>B.Tech – Computer Science</i></p>
-    <p><b>Year:</b> <i>2nd Year</i></p>
-    <p><b>Specialization:</b> <i>Artificial Intelligence & Machine Learning </i></p>
-    <h3 class="mt-4"><strong>Settings & Options</strong></h3>
-    <ul class="list-disc pl-6 ">
-      <li>Update Profile Information</li>
-      <li>Change Password</li>
-      <li>Set Notification Preferences</li>
-      <li>Privacy Settings</li>
-      <li>Delete Account</li>
-    </ul>
+  <div class="container">
+    <img class="profile_img" src="Media/student_profile.png" />
+
+    <div>
+      <h2><b>Name:</b> Amit Agarwal</h2>
+      <p><b>Student ID:</b> <u>2400033009</u></p>
+      <p><b>Mail ID:</b> <u>2400033009@kluniversity.in</u></p>
+      <p><b>Program:</b> <i>B.Tech – Computer Science</i></p>
+      <p><b>Year:</b> <i>2nd Year</i></p>
+      <p><b>Specialization:</b> <i>Artificial Intelligence & Machine Learning</i></p>
+    </div>
   </div>
+<div class="footer">
+    <p>© 2023 KLU Student Portal. All rights reserved.</p>
+<h3><strong>Settings & Options</strong></h3>
+<p class="settings">
+  <a href="#">Update Profile Information</a><br>
+  <a href="#">Change Password</a><br>
+  <a href="#">Set Notification Preferences</a><br>
+  <a href="#">Privacy Settings</a><br>
+  <a href="#">Delete Account</a>
+</p>
+
+</div>
 </body>
 </html>
